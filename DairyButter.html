@@ -1,0 +1,420 @@
+<link rel="stylesheet" href="bootstrap.css">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Dairy</title>
+
+  </head>
+  <body>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Dairy</a> -->
+
+    <!-- Image and text -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-rgb(255, 255, 69);" style="background-color:rgb(255, 255, 69);">
+
+        <a class="navbar-brand" href="#">
+        <img src="mern pics/cow.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Vedant's Dairy Farm
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Dairy.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="DairyAbout.html">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+        
+      </nav>
+
+      
+      <!-- Sliding Images -->
+<!-- 
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="padding-bottom: 100px;">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="mern pics/cow2.jpg" class="d-block w-100" alt="..." style="width: 0px; height:700px; margin-top: 10px; padding-left: 20px; padding-right: 20px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-size: 60px;">Milk and Dairy Products</h5>
+              <p class="font-weight-lighter" style="font-size: 30px;">FRESH. LOCAL. RESONABLE.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="mern pics/cow3.jpg" class="d-block w-100" alt="..." style="width: 0px; height:700px; margin-top: 10px; padding-left: 22px; padding-right: 22px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-size: 60px;">Fresh and Pure</h5>
+              <p class="font-weight-lighter" style="font-size: 30px;">All you need is just MILK!!!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="mern pics/cow4.jpg" class="d-block w-100" alt="..." style="width: 0px; height:700px; margin-top: 10px; padding-left: 25px; padding-right: 25px;">
+            <div class="carousel-caption d-none d-md-block">
+               <h5 style="font-size: 60px;">Creamy. Cheesyyy!!!</h5>
+               <p class="font-weight-lighter" style="font-size: 30px;">I wonder if milk thinks about you too...😉😉</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+ -->
+
+
+
+
+ <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="Dairy.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Butter</li>
+  </ol>
+</nav>
+
+
+
+ <div class="font-weight-lighter" style="padding-top: 30px; padding-bottom: 20px; padding-left: 200px; font-size:50px;">
+    <span class="badge badge-dark">Butter</span>
+  </div>
+
+
+<div style="padding-top: 50px; padding-left: 40px; padding-right: 40px;">
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Product Details</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Product Name</td>
+            <td>Gold Butter</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Packing</td>
+            <td>1000ml/1L</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Nutritional Information</td>
+            <td>Amount per 100ml:----           <br><br>
+                Energy, Kcal: 89    <br>
+                Total Fat, g: 4.5   <br>
+                Saturated Fat, g: 6.5   <br>
+                Added Sugar, g: 1   <br>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+</div>
+
+
+
+
+
+      <div style="padding-top: 100px;"></div>
+
+      <!-- yellow part -->
+      <div class="font-weight-normal" style="text-align: center; padding-top: 50px; padding-bottom: 50px; background-color: rgb(254, 254, 5);">
+
+        <h1 class="font-weight-normal" style="text-align: center; padding-top: 20px; background-color: rgb(254, 254, 5);">
+            Welcome to our Dairy Farm!!!
+        </h1>
+        
+        <p class="font-weight-lighter" style="font-size: 20px;">
+            Here you will find a wide range of healthy, pure and fresh dairy products. These are pridefully produced at our Farm by our Farmers and Cows. <br>
+            Welcome to the Dairy Farm....
+        </p>
+
+       <!-- image in another div -->
+        
+        <div class="text-center" style="height: 10px; margin: 0 auto; text-align: center" >
+        <img src="mern pics/cow1.png" class="rounded mx-auto d-block" alt="..." style="padding-bottom: 70px;">
+        </div>
+
+      </div>
+      
+      <!-- <img src="mern pics/cow1.png" style="padding-top: 10px; align-items: center; display: flex;"> -->
+
+      <!-- <div class="text-center">
+        <img src="mern pics/cow1.png" class="rounded mx-auto d-block" alt="..." style="padding-bottom: 20px;">
+      </div> -->
+
+<!-- 
+      <div class="font-weight-lighter" style="padding-top: 230px; padding-bottom: 50px; text-align: center; font-size:70px;">
+        <span class="align-middle">Our Products..</span>
+      </div>
+
+       -->
+      <!-- <div class="card" style="width: 18rem; padding-left: 20px; padding-right: 20px;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div> -->
+
+
+
+      
+  <!-- Products........... -->
+      <!-- <div class="row" style="padding-left: 20px; padding-right: 20px; padding-bottom: 70px;">
+
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="mern pics/mMilk.jpeg" class="card-img-top" alt="..." style="width: 300px; height:370px;">
+              <h5 class="card-title">Glass of fresh nutrition</h5>
+              <p class="card-text">Our Farm's Milk is produced after optional homogenization or pasteurization, 
+                in several grades after standardization of the fat level, 
+                and possible addition of the bacteria Streptococcus lactis and Leuconostoc citrovorum.</p>
+              <a href="#" class="btn btn-primary">Milk</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="mern pics/mGhee.jpg" class="card-img-top" alt="..." style="width: 300px; height:370px;">
+              <h5 class="card-title">Flavor of purity</h5>
+              <p class="card-text">Rich source of vitamins, antioxidants, and healthy fats. Clarified butter, 
+                by gentle heating of butter and removal of the solid matter.
+                Cooking healthy foods and vegetables with ghee may help you absorb more nutrients.</p>
+              <a href="#" class="btn btn-primary">Desi Ghee</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="mern pics/mIcecream.jpg" class="card-img-top" alt="..." style="width: 300px; height:370px;">
+              <h5 class="card-title">Eat cool, be cool</h5>
+              <p class="card-text">Contains nutrients that are good for your immune system. 
+                Nutrients in ice cream that can boost immune system. 
+                Full of vitamins and nutrients like 
+                vitamin A, vitamin D, selenium, and zinc which are all vital for a healthy immune system.</p>
+              <a href="#" class="btn btn-primary">Ice Cream</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="mern pics/mCurd.jpeg" class="card-img-top" alt="..." style="width: 300px; height:370px;">
+              <h5 class="card-title">Healthiest treat</h5>
+              <p class="card-text">One of most cherished dairy products in every Indian House. 
+                "White magic", a popular food because of its wonderful taste and health benefits. 
+                It is fermented milk and a creamy texture that can lure your taste buds 
+                such as Lassi, Raita, Dahi with Parantha, Chaas, Dahi Papdi, Dahi Wada, and whatnot.</p>
+              <a href="#" class="btn btn-primary">Curd</a>
+            </div>
+          </div>
+        </div>
+
+      </div> -->
+      
+
+      <!-- <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="mern pics/" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+      <div style="padding-top: 300px;"></div>
+
+      
+
+
+      <!-- Footer -->
+<footer class="page-footer font-small blue pt-4" style="background-color: rgb(253, 253, 82);">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left" style="padding-top: 20px;">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase" style="font-size: 50px;">Where to Buy</h5>
+        <p>Our Products are now available at every states and major cities in the country...</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">More about Farm</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Visit our Cattles</a>
+          </li>
+          <li>
+            <a href="#!">Farmers MeetUp</a>
+          </li>
+          <li>
+            <a href="#!">Farm Map</a>
+          </li>
+          <li>
+            <a href="#!">Farm Equipments</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">About Us</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Board</a>
+          </li>
+          <li>
+            <a href="#!">FAQ</a>
+          </li>
+          <li>
+            <a href="#!">Our Staff</a>
+          </li>
+          <li>
+            <a href="#!">Contact Us</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="background-color: rgb(243, 243, 0);">© 2023 Copyright:
+    <a href="/"> Vedant's Dairy Farm</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="card-deck">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div> -->
+
+
+  </body>
+</html>
